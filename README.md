@@ -1,1 +1,1 @@
-# azure-functions-nodejs-opencv
+# azure-functions-nodejs-opencv-template
