@@ -23,7 +23,7 @@
 	"workspaceFolder": "/home/site/wwwroot",
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postAttachCommand": "[ ! -d ./node_modules/opencv4nodejs -o ! -d ./node_modules/opencv-build ] && tar -xzf /tmp/node_modules.tar.gz",
+	"postAttachCommand": "[ ! -d ./node_modules/opencv4nodejs -o ! -d ./node_modules/opencv-build ] && tar -xzf /tmp/node_modules.tar.gz || false",
 
 	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
 	// "remoteUser": "vscode"
